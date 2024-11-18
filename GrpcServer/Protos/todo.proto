@@ -8,14 +8,6 @@ package todoit;
 
 service ToDoIt {
 
-//AddToDatabase
-rpc AddToDatabase(AddToDatabaseRequest) returns (AddToDatabaseResponse){
-	option (google.api.http) = {
-		post: "/v1/todo/database",
-		body: "*"
-	};
-}
-
 //Create
 rpc CreateToDo(CreateToDoRequest) returns (CreateToDoResponse){
     option (google.api.http) = {
@@ -52,23 +44,8 @@ rpc DeleteToDo(DeleteToDoRequest) returns (DeleteToDoResponse){
 		delete: "/v1/todo/{id}"
 	};
 }
-
-rpc GetCustomerInfo (Empty) returns (CustomerModel);
 }
 
-message Empty{
-
-}
-
-
-message AddToDatabaseRequest{
-	string userId = 1;
-	int32 jackpotValue = 2;
-}
-
-message AddToDatabaseResponse{
-	int32 id = 1;
-}
 
 message CreateToDoRequest{
 	string userId = 1;
@@ -115,13 +92,3 @@ message DeleteToDoResponse{
 	int32 id = 1;
 }
 
-
-
-message NewCustomerRequest {
-
-}
-
-message CustomerModel {
-    string userId = 1;
-    int32 jackpotValue = 2;
-}

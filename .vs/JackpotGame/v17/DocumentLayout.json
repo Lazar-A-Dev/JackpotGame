@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{CFB3BE22-25D0-4CDF-8EF2-503145D8CD10}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\serverrmq\\serverrmq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFB3BE22-25D0-4CDF-8EF2-503145D8CD10}|GrpcServer\\GrpcServer.csproj|c:\\users\\fazi\\source\\repos\\jackpotgame\\grpcserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFB3BE22-25D0-4CDF-8EF2-503145D8CD10}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFB3BE22-25D0-4CDF-8EF2-503145D8CD10}|GrpcServer\\GrpcServer.csproj|c:\\users\\fazi\\source\\repos\\jackpotgame\\grpcserver\\protos\\todo.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{CFB3BE22-25D0-4CDF-8EF2-503145D8CD10}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\protos\\todo.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFB3BE22-25D0-4CDF-8EF2-503145D8CD10}|GrpcServer\\GrpcServer.csproj|c:\\users\\fazi\\source\\repos\\jackpotgame\\grpcserver\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFB3BE22-25D0-4CDF-8EF2-503145D8CD10}|GrpcServer\\GrpcServer.csproj|solutionrelative:grpcserver\\services\\todoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,22 +32,35 @@
               "RelativeDocumentMoniker": "GrpcServer\\ServerRmq\\ServerRmq.cs",
               "ToolTip": "C:\\Users\\Fazi\\source\\repos\\JackpotGame\\GrpcServer\\ServerRmq\\ServerRmq.cs",
               "RelativeToolTip": "GrpcServer\\ServerRmq\\ServerRmq.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T12:21:00.055Z",
+              "WhenOpened": "2024-11-18T14:16:54.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ToDoService.cs",
+              "DocumentMoniker": "C:\\Users\\Fazi\\source\\repos\\JackpotGame\\GrpcServer\\Services\\ToDoService.cs",
+              "RelativeDocumentMoniker": "GrpcServer\\Services\\ToDoService.cs",
+              "ToolTip": "C:\\Users\\Fazi\\source\\repos\\JackpotGame\\GrpcServer\\Services\\ToDoService.cs",
+              "RelativeToolTip": "GrpcServer\\Services\\ToDoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T14:14:33.956Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Fazi\\source\\repos\\JackpotGame\\GrpcServer\\Program.cs",
-              "RelativeDocumentMoniker": "GrpcServer\\Program.cs",
-              "ToolTip": "C:\\Users\\Fazi\\source\\repos\\JackpotGame\\GrpcServer\\Program.cs",
-              "RelativeToolTip": "GrpcServer\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T12:15:24.861Z",
+              "Title": "todo.proto",
+              "DocumentMoniker": "C:\\Users\\Fazi\\source\\repos\\JackpotGame\\GrpcServer\\Protos\\todo.proto",
+              "RelativeDocumentMoniker": "GrpcServer\\Protos\\todo.proto",
+              "ToolTip": "C:\\Users\\Fazi\\source\\repos\\JackpotGame\\GrpcServer\\Protos\\todo.proto",
+              "RelativeToolTip": "GrpcServer\\Protos\\todo.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2024-11-18T14:14:32.96Z",
               "EditorCaption": ""
             }
           ]

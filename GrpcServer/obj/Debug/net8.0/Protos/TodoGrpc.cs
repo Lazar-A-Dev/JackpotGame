@@ -46,10 +46,6 @@ namespace GrpcServer {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcServer.AddToDatabaseRequest> __Marshaller_todoit_AddToDatabaseRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.AddToDatabaseRequest.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcServer.AddToDatabaseResponse> __Marshaller_todoit_AddToDatabaseResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.AddToDatabaseResponse.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcServer.CreateToDoRequest> __Marshaller_todoit_CreateToDoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.CreateToDoRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcServer.CreateToDoResponse> __Marshaller_todoit_CreateToDoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.CreateToDoResponse.Parser));
@@ -69,18 +65,6 @@ namespace GrpcServer {
     static readonly grpc::Marshaller<global::GrpcServer.DeleteToDoRequest> __Marshaller_todoit_DeleteToDoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.DeleteToDoRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::GrpcServer.DeleteToDoResponse> __Marshaller_todoit_DeleteToDoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.DeleteToDoResponse.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcServer.Empty> __Marshaller_todoit_Empty = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.Empty.Parser));
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::GrpcServer.CustomerModel> __Marshaller_todoit_CustomerModel = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::GrpcServer.CustomerModel.Parser));
-
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::GrpcServer.AddToDatabaseRequest, global::GrpcServer.AddToDatabaseResponse> __Method_AddToDatabase = new grpc::Method<global::GrpcServer.AddToDatabaseRequest, global::GrpcServer.AddToDatabaseResponse>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "AddToDatabase",
-        __Marshaller_todoit_AddToDatabaseRequest,
-        __Marshaller_todoit_AddToDatabaseResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::GrpcServer.CreateToDoRequest, global::GrpcServer.CreateToDoResponse> __Method_CreateToDo = new grpc::Method<global::GrpcServer.CreateToDoRequest, global::GrpcServer.CreateToDoResponse>(
@@ -122,14 +106,6 @@ namespace GrpcServer {
         __Marshaller_todoit_DeleteToDoRequest,
         __Marshaller_todoit_DeleteToDoResponse);
 
-    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::GrpcServer.Empty, global::GrpcServer.CustomerModel> __Method_GetCustomerInfo = new grpc::Method<global::GrpcServer.Empty, global::GrpcServer.CustomerModel>(
-        grpc::MethodType.Unary,
-        __ServiceName,
-        "GetCustomerInfo",
-        __Marshaller_todoit_Empty,
-        __Marshaller_todoit_CustomerModel);
-
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
@@ -140,18 +116,6 @@ namespace GrpcServer {
     [grpc::BindServiceMethod(typeof(ToDoIt), "BindService")]
     public abstract partial class ToDoItBase
     {
-      /// <summary>
-      ///AddToDatabase
-      /// </summary>
-      /// <param name="request">The request received from the client.</param>
-      /// <param name="context">The context of the server-side call handler being invoked.</param>
-      /// <returns>The response to send back to the client (wrapped by a task).</returns>
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::GrpcServer.AddToDatabaseResponse> AddToDatabase(global::GrpcServer.AddToDatabaseRequest request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
       /// <summary>
       ///Create
       /// </summary>
@@ -212,12 +176,6 @@ namespace GrpcServer {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
-      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::GrpcServer.CustomerModel> GetCustomerInfo(global::GrpcServer.Empty request, grpc::ServerCallContext context)
-      {
-        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
-      }
-
     }
 
     /// <summary>Creates service definition that can be registered with a server</summary>
@@ -226,13 +184,11 @@ namespace GrpcServer {
     public static grpc::ServerServiceDefinition BindService(ToDoItBase serviceImpl)
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
-          .AddMethod(__Method_AddToDatabase, serviceImpl.AddToDatabase)
           .AddMethod(__Method_CreateToDo, serviceImpl.CreateToDo)
           .AddMethod(__Method_ReadToDo, serviceImpl.ReadToDo)
           .AddMethod(__Method_GetAllToDo, serviceImpl.GetAllToDo)
           .AddMethod(__Method_UpdateToDo, serviceImpl.UpdateToDo)
-          .AddMethod(__Method_DeleteToDo, serviceImpl.DeleteToDo)
-          .AddMethod(__Method_GetCustomerInfo, serviceImpl.GetCustomerInfo).Build();
+          .AddMethod(__Method_DeleteToDo, serviceImpl.DeleteToDo).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -242,13 +198,11 @@ namespace GrpcServer {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, ToDoItBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_AddToDatabase, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.AddToDatabaseRequest, global::GrpcServer.AddToDatabaseResponse>(serviceImpl.AddToDatabase));
       serviceBinder.AddMethod(__Method_CreateToDo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.CreateToDoRequest, global::GrpcServer.CreateToDoResponse>(serviceImpl.CreateToDo));
       serviceBinder.AddMethod(__Method_ReadToDo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.ReadToDoRequest, global::GrpcServer.ReadToDoResponse>(serviceImpl.ReadToDo));
       serviceBinder.AddMethod(__Method_GetAllToDo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.GetAllRequest, global::GrpcServer.GetAllResponse>(serviceImpl.GetAllToDo));
       serviceBinder.AddMethod(__Method_UpdateToDo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.UpdateToDoRequest, global::GrpcServer.UpdateToDoResponse>(serviceImpl.UpdateToDo));
       serviceBinder.AddMethod(__Method_DeleteToDo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.DeleteToDoRequest, global::GrpcServer.DeleteToDoResponse>(serviceImpl.DeleteToDo));
-      serviceBinder.AddMethod(__Method_GetCustomerInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::GrpcServer.Empty, global::GrpcServer.CustomerModel>(serviceImpl.GetCustomerInfo));
     }
 
   }
