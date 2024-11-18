@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "18bbb105-aae1-4262-b99c-ccaafa0b9a50",
+		"name": "GrpcWithApiCalls",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "38061457"
+	},
+	"item": [
+		{
+			"name": "https://localhost:7260/v1/todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:7260/v1/todo"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7260/v1/todo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\" : \"Attack of the dead planet\",\r\n    \"description\" : \"Just an invasion\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7260/v1/todo"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7260/v1/todo",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 3,\r\n    \"title\" : \"Attack of the dead planet 2\",\r\n    \"description\" : \"Just an invasion, again\",\r\n    \"status\" : \"New movie\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7260/v1/todo"
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:7260/v1/todo/3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:7260/v1/todo/3"
+			},
+			"response": []
+		}
+	]
+}

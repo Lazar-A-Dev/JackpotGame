@@ -1,0 +1,127 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcServer";
+
+import "google/api/annotations.proto";
+
+package todoit;
+
+service ToDoIt {
+
+//AddToDatabase
+rpc AddToDatabase(AddToDatabaseRequest) returns (AddToDatabaseResponse){
+	option (google.api.http) = {
+		post: "/v1/todo/database",
+		body: "*"
+	};
+}
+
+//Create
+rpc CreateToDo(CreateToDoRequest) returns (CreateToDoResponse){
+    option (google.api.http) = {
+        post:"/v1/todo/create",
+        body: "*"
+    };
+}
+
+//Get
+rpc ReadToDo(ReadToDoRequest) returns (ReadToDoResponse){
+	option (google.api.http) = {
+		get:"/v1/todo/{id}"
+	};
+}
+
+//GetAll
+rpc GetAllToDo(GetAllRequest) returns (GetAllResponse){
+	option (google.api.http) = {
+		get: "/v1/todo"
+	};
+}
+
+//Update
+rpc UpdateToDo(UpdateToDoRequest) returns (UpdateToDoResponse){
+	option (google.api.http) = {
+		put: "/v1/todo",
+		body: "*"
+	};
+}
+
+//Delete
+rpc DeleteToDo(DeleteToDoRequest) returns (DeleteToDoResponse){
+	option (google.api.http) = {
+		delete: "/v1/todo/{id}"
+	};
+}
+
+rpc GetCustomerInfo (Empty) returns (CustomerModel);
+}
+
+message Empty{
+
+}
+
+
+message AddToDatabaseRequest{
+	string userId = 1;
+	int32 jackpotValue = 2;
+}
+
+message AddToDatabaseResponse{
+	int32 id = 1;
+}
+
+message CreateToDoRequest{
+	string userId = 1;
+	int32 jackpotValue = 2;
+}
+
+message CreateToDoResponse{
+	int32 id = 1;
+}
+
+message ReadToDoRequest{
+	int32 id = 1;
+}
+
+message ReadToDoResponse{
+	int32 id = 1;
+	string userId = 2;
+	int32 jackpotValue = 3;
+	string time = 4;
+}
+
+message GetAllRequest{}
+
+message GetAllResponse{
+	repeated ReadToDoResponse to_do = 1;
+}
+
+message UpdateToDoRequest{
+	int32 id = 1;
+	string userId = 2;
+	int32 jackpotValue = 3;
+	string time = 4;
+}
+
+message UpdateToDoResponse{
+	int32 id = 1;
+}
+
+message DeleteToDoRequest{
+	int32 id = 1;
+}
+
+message DeleteToDoResponse{
+	int32 id = 1;
+}
+
+
+
+message NewCustomerRequest {
+
+}
+
+message CustomerModel {
+    string userId = 1;
+    int32 jackpotValue = 2;
+}

@@ -1,0 +1,17 @@
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\bin\Debug\net8.0\Jackpot.Infra.exe
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\bin\Debug\net8.0\Jackpot.Infra.deps.json
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\bin\Debug\net8.0\Jackpot.Infra.runtimeconfig.json
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\bin\Debug\net8.0\Jackpot.Infra.dll
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\bin\Debug\net8.0\Jackpot.Infra.pdb
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot.Infra.csproj.AssemblyReference.cache
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot.Infra.AssemblyInfoInputs.cache
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot.Infra.AssemblyInfo.cs
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot..C90E24B4.Up2Date
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot.Infra.dll
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\refint\Jackpot.Infra.dll
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot.Infra.pdb
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\Jackpot.Infra.genruntimeconfig.cache
+C:\Users\Fazi\source\repos\JackpotGame\Jackpot.Infra\obj\Debug\net8.0\ref\Jackpot.Infra.dll

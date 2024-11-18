@@ -1,0 +1,17 @@
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot.Domain.csproj.AssemblyReference.cache
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot.Domain.AssemblyInfoInputs.cache
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot.Domain.AssemblyInfo.cs
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\bin\Debug\net8.0\Jackpot.Domain.exe
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\bin\Debug\net8.0\Jackpot.Domain.deps.json
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\bin\Debug\net8.0\Jackpot.Domain.runtimeconfig.json
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\bin\Debug\net8.0\Jackpot.Domain.dll
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\bin\Debug\net8.0\Jackpot.Domain.pdb
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot..9091EA5C.Up2Date
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot.Domain.dll
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\refint\Jackpot.Domain.dll
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot.Domain.pdb
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\Jackpot.Domain.genruntimeconfig.cache
+C:\Users\Fazi\source\repos\JackpotGame\JackpotDomain\obj\Debug\net8.0\ref\Jackpot.Domain.dll
