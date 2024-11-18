@@ -47,8 +47,7 @@ namespace GrpcServer.ServerRmq
                 string[] strlist = request.Split(spearator, count, StringSplitOptions.None);
 
                 int numVal = (int)(double.Parse(strlist[1]) * domServer.percentigeBet);
-                //Random rnd = new Random();
-                //int value = rnd.Next(jackpotMinReq, jackpotMaxReq);
+
                 int testValue = 0;
 
                 if (!clientDictionary.ContainsKey(strlist[0]))
@@ -87,8 +86,9 @@ namespace GrpcServer.ServerRmq
                         await _dbContext.AddAsync(toDoItem);
                         await _dbContext.SaveChangesAsync();
 
-                        Console.WriteLine($"Item added to the LocalDb: {toDoItem.UserId} | {toDoItem.JackpotValue}");
-
+                        Console.WriteLine($"User added to the LocalDb: {toDoItem.UserId} | {toDoItem.JackpotValue}");
+                        //At the end we randomize the jackpot value
+                        value = rnd.Next(jackpotMinReq, jackpotMaxReq);
 
                     }
                     clientDictionary[strlist[0]] += numVal;
@@ -101,10 +101,10 @@ namespace GrpcServer.ServerRmq
             };
             channel.BasicConsume("jackpot", true, server);
             Console.WriteLine("Press a key to exit.");
-            Console.ReadKey();
+            //Console.ReadKey();
 
-            channel.Close();
-            connection.Close();
+            //channel.Close();
+            //connection.Close();
         }
 
 

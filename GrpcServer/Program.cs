@@ -44,4 +44,6 @@ app.MapGet("/", () => "Communication with gRPC endpoints must be made through a 
 
 app.Run();
 
-server.TheServerRmq(channel, connection);
+channel.Close();
+connection.Close();
+//server.TheServerRmq(channel, connection);

@@ -353,3 +353,4 @@ C:\Users\Fazi\source\repos\JackpotGame\GrpcServer\bin\Debug\net8.0\Jackpot.Appli
 C:\Users\Fazi\source\repos\JackpotGame\GrpcServer\bin\Debug\net8.0\Jackpot.Domain.dll
 C:\Users\Fazi\source\repos\JackpotGame\GrpcServer\bin\Debug\net8.0\Jackpot.Application.pdb
 C:\Users\Fazi\source\repos\JackpotGame\GrpcServer\bin\Debug\net8.0\Jackpot.Domain.pdb
+C:\Users\Fazi\source\repos\JackpotGame\GrpcServer\obj\Debug\net8.0\GrpcServer.sourcelink.json
